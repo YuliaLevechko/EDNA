@@ -1,0 +1,54 @@
+.header {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 16px;
+}
+.header-logo {
+}
+.header-menu-btn {
+    border: none;
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+}
+.header-menu-pic {
+    stroke: var(--brown);
+}
+.header-menu-pic:hover, .header-menu-pic:focus {
+    stroke: var(--accent);
+}
+
+/* ----------------------------------------media---------------------------------------------- */
+@media screen and (min-width: 320px) {
+    .container {
+            width: 320px;
+    }
+
+}
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    .header-container {
+        padding: 32px 50px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1440px;
+    }
+    .header-container {
+        padding: 48px 80px 40px;
+    }
+}
