@@ -21,7 +21,7 @@
     color: var(--dark-brown);
     font-size: 36px;
     font-weight: 300;
-    line-height: 1.1;
+    line-height: 1.2;
     text-transform: uppercase;
     text-overflow: ellipsis;
     display: flex;
@@ -40,6 +40,9 @@
     color: var(--light-beige);
     font-size: 12px;
     letter-spacing: 0.24px;
+}
+.hero-btn:hover, .hero-btn:focus {
+    background-color: var(--hover);
 }
 /* -------------------------------media---------------------------------------------- */
 @media screen and (min-width: 768px) {

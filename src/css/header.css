@@ -40,4 +40,10 @@
     .header-container {
         padding: 48px 80px 40px;
     }
+    .header-logo {
+        height: 32px;
+    }
+    .header-logo-pic {
+        height: 32px;
+    }
 }
