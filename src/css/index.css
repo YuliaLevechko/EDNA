@@ -1,5 +1,6 @@
 @import url(./header.css);
 @import url(./hero.css);
+@import url(./about.css);
 
 /* Reset styles */
 :root {
@@ -8,6 +9,7 @@
     --brown: #2D1B0D;
     --accent: #B31719;
     --hover: #750e10;
+    --dark-beige: #8F7D65;
 }
 h1,
 h2,

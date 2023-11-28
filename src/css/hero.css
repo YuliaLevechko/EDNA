@@ -1,3 +1,6 @@
+.hero {
+    padding-bottom: 40px;
+}
 .hero-container {
     display: flex;
     flex-direction: column;
@@ -72,6 +75,9 @@
     }
 }
 @media screen and (min-width: 1440px) {
+    .hero {
+        padding-bottom: 80px;
+    }
     .hero-container {
         padding: 0 80px;
         gap: 121px;
