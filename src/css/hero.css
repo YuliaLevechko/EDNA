@@ -1,0 +1,41 @@
+.hero-container {
+}
+.hero-pic {
+    width: 160px;
+    height: auto;
+    position: fixed;
+    right: 0;
+    top: 72px;
+}
+.hero-underside {
+    position: relative;
+    bottom: -198px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.hero-title {
+    font-family: "Cormorant Garamond", serif;
+    color: var(--dark-brown);
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-left: 16px;
+}
+.hero-btn {
+    display: flex;
+    margin: 0 auto;
+    padding: 16px 72px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent);
+    border: none;
+    color: var(--light-beige);
+    font-size: 12px;
+    letter-spacing: 0.24px;
+}
