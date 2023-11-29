@@ -1,9 +1,9 @@
-.approach {}
-
-.approach-container {
-    padding: 40px 16px 33px;
+.approach {
+    padding: 40px 0 33px;
 }
-
+.approach-container {
+    padding: 0 16px;
+}
 .approach-title {
     font-size: 12px;
     font-weight: 400;
@@ -22,7 +22,6 @@
     flex-direction: column;
     gap: 16px;
 }
-
 .approach-subtitle {
     font-family: Cormorant Garamond;
     font-size: 36px;
@@ -31,20 +30,17 @@
     text-transform: uppercase;
     color: var(--brown);
 }
-
 .approach-subcontent {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-
 .approach-descr {
     text-align: justify;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.5; 
 }
-
 .approach-buttons {
     margin: 0 auto;
     display: flex;
@@ -54,14 +50,92 @@
     background-color: transparent;
     width: 40px;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .approach-btn-one {
     display: none;
 }
 .approach-btn-two {}
-
 .approach-icon {
-    stroke: var(--light-brown);
+    fill: var(--dark-beige);
     width: 40px;
     height: 10px;
+}
+.approach-icon:hover, .approach-icon:focus {
+    fill: var(--light-brown);
+}
+/* -------------------------------media---------------------------------------------- */
+@media screen and (min-width: 768px) {
+    .approach {
+        padding: 40px 0;
+    }
+    .approach-container {
+        padding: 0 40px;
+    }
+    .approach-title {
+        position: absolute;
+        padding-bottom: 0;
+    }
+    .approach-picture-block {
+        padding-bottom: 0;
+    }
+    .approach-content {
+        width: 550px;
+        padding-right: 40px;
+        justify-content: center;
+        gap: 0;
+    }
+    .approach-info-block {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+    }
+    .approach-btn-one {
+        display: flex;
+    }
+    .approach-buttons {
+        display: flex;
+        gap: 24px;
+        margin: 0;
+    }
+    .approach-subtitle {
+        font-size: 28px;
+        line-height: 1;
+        padding: 90px 0;
+    }
+    .approach-subcontent {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .approach-descr {
+        width: 250px;
+        font-size: 8px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .approach {
+        padding: 80px 0;
+    }
+    .approach-container {
+        padding: 0 80px;
+    }
+    .approach-content {
+        padding-right: 80px;
+        width: 700px;
+    }
+    .approach-subtitle {
+        font-size: 64px;
+        padding: 148px 0;
+    }
+    .approach-btn {
+        gap: 24px;
+    }
+    .approach-descr {
+        width: 423px;
+        font-size: 12px;
+    }
+
 }
