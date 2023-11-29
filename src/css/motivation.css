@@ -1,5 +1,3 @@
-.motivation {}
-.motivation-container {}
 .motivation-slider-image {
     position: relative;
 }
@@ -18,7 +16,6 @@
     text-transform: uppercase;
     color: var(--light-beige);
     margin-bottom: 40px;
-
 }
 .motivation-descr {
     width: 263px;
@@ -31,4 +28,80 @@
 .motivation-slider {
     display: flex;
     margin: 0 auto;
+}
+.motivation-second-image {
+    display: none;
+}
+/* -------------------------------media---------------------------------------------- */
+@media screen and (min-width: 768px) {
+    .motivation {
+        padding: 40px 0;
+    }
+    .motivation-container {
+        padding: 0 40px;
+        display: flex;
+    }
+    .motivation-first-img {
+        width: 100%;
+    }
+    .motivation-top-text {
+        padding: 25px 20px;
+    }
+    .motivation-title {
+        width: 220px;
+        font-size: 32px;
+        line-height: 1;
+        margin-bottom: 24px;
+    }
+    .motivation-descr {
+        width: 220px;
+        margin-bottom: 0;
+    }
+    .motivation-slider{
+        display: none;
+    }
+    .motivation-second-image-block {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding-left: 40px;
+    }
+    .motivation-second-image {
+        display: flex;
+        width: 180px;
+        height: auto;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .motivation {
+        padding: 80px 0;
+    }
+    .motivation-container {
+        padding: 0 80px;
+    }
+    .motivation-first-pic {
+        display: flex;
+        width: 456px;
+    }
+    .motivation-top-text {
+        padding: 80px 40px;
+    }
+    .motivation-title {
+        width: 376px;
+        font-size: 64px;
+        line-height: 1;
+        margin-bottom: 144px;
+    }
+    .motivation-descr {
+        width: 376px;
+        margin-bottom: 0;
+    }
+    .motivation-second-image-block {
+        padding-left: 80px;
+    }
+    .motivation-second-image {
+        width: 310px;
+        height: auto;
+    }
 }
