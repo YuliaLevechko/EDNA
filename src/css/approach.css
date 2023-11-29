@@ -1,0 +1,67 @@
+.approach {}
+
+.approach-container {
+    padding: 40px 16px 33px;
+}
+
+.approach-title {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+    text-transform: uppercase;
+    color: var(--accent);
+    padding-bottom: 40px;
+}
+.approach-picture-block {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 16px;
+}
+.approach-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.approach-subtitle {
+    font-family: Cormorant Garamond;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.05;
+    text-transform: uppercase;
+    color: var(--brown);
+}
+
+.approach-subcontent {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.approach-descr {
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5; 
+}
+
+.approach-buttons {
+    margin: 0 auto;
+    display: flex;
+}
+.approach-btn {
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    padding: 0;
+}
+.approach-btn-one {
+    display: none;
+}
+.approach-btn-two {}
+
+.approach-icon {
+    stroke: var(--light-brown);
+    width: 40px;
+    height: 10px;
+}
